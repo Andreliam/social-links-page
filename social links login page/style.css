@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width:auto;
+    font-family: "inter",sans-serif;
+    background-color: hsl(0, 0%, 8%);
+    overflow:hidden
+}
+.socialcontainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(0, 0%, 12%);
+    min-width: 375px;
+    padding: 2rem;
+    border-radius: 20px;
+}
+.social-upper{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.social-upper img{
+    background-size: cover;
+    border-radius: 50%;
+    height: 100px;
+    width: auto;
+}
+.social-upper,quote{
+    color: hsl(0, 0%, 100%);
+    
+}
+.social-upper img,.location-text,.quote{
+    padding: 1rem ;
+    font-size: 0.825rem;
+}
+.location-text{
+    color: hsl(76, 62%, 61%);
+    font-weight: bold;
+}
+.social-lower{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%; gap: 1rem;
+
+}
+
+    .social-lower ,button{
+    border:none ;
+    padding: 1rem;
+    font-size: 0.825rem;
+    font-weight: bold;
+    border-radius: 10px;
+    
+}
+button:hover{
+    cursor: pointer;
+    background-color: hsl(76, 62%, 61%);
+    color: hsl(0, 0%, 12%);
+}
+button{
+    font-weight: bold;
+background-color: rgb(26, 61, 61);
+color: antiquewhite;
+}
